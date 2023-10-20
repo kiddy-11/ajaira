@@ -1,38 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
-*{
+
+* {
     padding: 0;
     box-sizing: border-box;
     margin: 0;
 }
-body{
+
+body {
     background-color: rgb(211, 211, 211);
     font-family: 'Poppins', sans-serif;
 }
-ul{
+
+ul {
     text-decoration: none;
     list-style: none;
 }
-li{
+
+li {
     list-style: none;
 }
-.container{
+
+.container {
     height: 90px;
     display: flex;
     background-color: #5c2eff;
     align-items: center;
 }
-.logo{
+
+.logo {
     display: flex;
     margin-left: 60px;
 }
-.idea{
+
+.idea {
     text-decoration: none;
     list-style: none;
-    margin-top: 10px!important;
+    margin-top: 10px !important;
     margin-left: 10px;
-    font-size: 30px!important;
+    font-size: 30px !important;
 }
-.logo img{
+
+.logo img {
     display: flex;
     align-items: flex-start;
     width: 30px;
@@ -40,127 +48,154 @@ li{
     margin-left: 150px;
     margin-top: 10px;
 }
-.texta{
+
+.texta {
     font-weight: 500;
 }
-.menu{
+
+.menu {
     margin-left: 565px;
 }
-.menu ul{
-   display: flex;
-   justify-content: flex-end;
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
 }
-.menu ul li{
-   margin-right: 25px;
-  
+
+.menu ul li {
+    margin-right: 25px;
+
 }
-.li,.idea{
+
+.li,
+.idea {
     margin-top: 18px;
     color: aliceblue;
     font-size: 20px;
     text-transform: capitalize;
     font-weight: 300;
 }
-.menu-img{
+
+.menu-img {
     margin-top: 2px;
 }
+
 /* first pera session */
-#first-pera{
+#first-pera {
     width: 850px;
     height: 600px;
     margin: 0 auto;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
 }
-h3{
+
+h3 {
     margin-top: 27px;
     padding-top: 27px;
     margin-left: 35px;
     color: #5c2eff;
     font-weight: 500;
 }
-.image-text{
+
+.image-text {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 25px;
 }
-.img-tex{
+
+.img-tex {
     display: flex;
     margin-left: 35px;
     margin-top: 15px;
 }
-.player img{
+
+.player img {
     width: 50px;
     height: 50px;
 }
-.texta{
+
+.texta {
     margin-top: 15px;
     margin-left: 7px;
 }
-.p{
+
+.p {
     border-bottom: 1px solid rgb(201, 186, 186);
     width: 760px;
     padding: 15px;
     margin-left: 40px;
-   
+
 }
-.course{
+
+.course {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-top: 20px;
 }
-.course-1 img{
+
+.course-1 img {
     width: 120px;
     height: 80px;
 }
-.course-1{
+
+.course-1 {
     margin-left: 40px;
     display: flex;
     padding-top: 17px;
 }
-.text-1{
+
+.text-1 {
     margin-left: 16px;
     margin-top: 10px;
 }
-h6{
+
+h6 {
     padding-top: 6px;
     color: #5c2eff;
     font-weight: 500;
 }
-h6 .by{
+
+h6 .by {
     color: rgb(202, 193, 181);
     padding-right: 5px;
 }
+
 /* Courses Style */
-.course-2 .course-banner img{
+.course-2 .course-banner img {
     width: 224px;
     height: 104px;
 }
-#scnd-pera{
-        width: 850px;
-        height: 300px;
-        margin: 0 auto;
-        background-color: rgb(255, 255, 255);
-        border-radius: 5px;
-        margin-top: 21px;
+
+#scnd-pera {
+    width: 850px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 21px;
 }
-.course-info{
+
+.course-info {
     display: flex;
     justify-content: space-between;
 }
-.fa-star{
+
+.fa-star {
     font-size: 12px;
 }
-.fa-star.filled{
+
+.fa-star.filled {
     color: #ffc014;
 }
-.fa-star.empty{
+
+.fa-star.empty {
     color: #aeaeae;
 }
-.courses-2{
+
+.courses-2 {
     margin-left: 30px;
     margin-top: 20px;
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
     width: 300px;
@@ -168,14 +203,17 @@ h6 .by{
     border: 1px solid azure;
 
 }
-.course-author a{
+
+.course-author a {
     text-decoration: none;
     color: black;
 }
-.course-title{
+
+.course-title {
     color: 1E1E1E;
     font-weight: 600;
 }
-.course-duration{
+
+.course-duration {
     color: #FF4A60;
 }
